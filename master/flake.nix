@@ -11,6 +11,7 @@
   inputs.src-hcparse-master.ref   = "refs/heads/master";
   inputs.src-hcparse-master.owner = "haxscramper";
   inputs.src-hcparse-master.repo  = "hcparse";
+  inputs.src-hcparse-master.dir   = "";
   inputs.src-hcparse-master.type  = "github";
   
   inputs."hnimast".owner = "nim-nix-pkgs";

@@ -11,6 +11,7 @@
   inputs.src-hcparse-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-hcparse-v0_1_2.owner = "haxscramper";
   inputs.src-hcparse-v0_1_2.repo  = "hcparse";
+  inputs.src-hcparse-v0_1_2.dir   = "";
   inputs.src-hcparse-v0_1_2.type  = "github";
   
   inputs."hnimast".owner = "nim-nix-pkgs";
