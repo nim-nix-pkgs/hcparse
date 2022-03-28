@@ -11,7 +11,6 @@
   inputs.src-hcparse-master.ref   = "refs/heads/master";
   inputs.src-hcparse-master.owner = "haxscramper";
   inputs.src-hcparse-master.repo  = "hcparse";
-  inputs.src-hcparse-master.dir   = "";
   inputs.src-hcparse-master.type  = "github";
   
   inputs."hnimast".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."htsparse".type  = "github";
   inputs."htsparse".inputs.nixpkgs.follows = "nixpkgs";
   inputs."htsparse".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/haxscramper/frosty".owner = "nim-nix-pkgs";
+  inputs."github.com/haxscramper/frosty".ref   = "master";
+  inputs."github.com/haxscramper/frosty".repo  = "github.com/haxscramper/frosty";
+  inputs."github.com/haxscramper/frosty".dir   = "";
+  inputs."github.com/haxscramper/frosty".type  = "github";
+  inputs."github.com/haxscramper/frosty".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/haxscramper/frosty".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."hmisc".owner = "nim-nix-pkgs";
   inputs."hmisc".ref   = "master";
